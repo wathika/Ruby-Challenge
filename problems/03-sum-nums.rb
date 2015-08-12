@@ -4,6 +4,11 @@
 # Difficulty: easy.
 
 def sum_nums(num)
+	x = 1..num
+
+	y = x.reduce(:+)
+
+	return y
 end
 
 # These are tests to check that your code is working. After writing
