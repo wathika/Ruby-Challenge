@@ -7,6 +7,8 @@ def sum_nums(num)
 	x = 1..num
 
 	y = x.reduce(:+)
+	#can also be done by using the inject method
+	#y = x.inject(&;+)
 
 	return y
 end
