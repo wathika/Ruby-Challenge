@@ -10,18 +10,18 @@ def count_vowels(string)
   chars = string.chars
   vowels = ["a", "e", "i", "o", "u"]
 
-  count = 0
+  sum = 0
 
   chars.each do |char|
     vowels.each do |vowel|
       if char == vowel
-        count += 1
+        sum += 1
         break
       end
     end
   end
 
-  return count
+  return sum
 end
 
 # These are tests to check that your code is working. After writing
