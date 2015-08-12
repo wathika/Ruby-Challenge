@@ -7,13 +7,7 @@
 # Difficulty: easy.
 
 def longest_word(sentence)
-	words = sentence.split(" ")
-
-	words.each { |x| 
-		
-
-	}
-
+	words = sentence.split(" ").max_by(&:length)
 
 end
 
