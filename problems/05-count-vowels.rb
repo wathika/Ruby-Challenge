@@ -12,7 +12,14 @@ def count_vowels(string)
 
   sum = 0
 
-  
+  chars.each do |char|
+    vowels.each do |vowel|
+      if char == vowel
+        sum += 1
+        break
+      end
+    end
+  end
 
   return sum
 end
