@@ -7,6 +7,15 @@
 
 def reverse(string)
 	reversed_string = ""
+
+	i = 0
+  while i < string.length
+    reversed_string = string[i] + reversed_string
+
+    i += 1
+  end
+
+  return reversed_string
 end
 
 # These are tests to check that your code is working. After writing
