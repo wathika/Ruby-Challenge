@@ -5,6 +5,7 @@
 # Difficulty: medium.
 
 def nearby_az(string)
+	idx1 = 0
 end
 
 # These are tests to check that your code is working. After writing
