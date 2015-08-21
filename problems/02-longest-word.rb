@@ -9,6 +9,24 @@
 def longest_word(sentence)
 	words = sentence.split(" ").max_by(&:length)
 
+
+	# longest_word = nil
+
+ #  word_idx = 0
+ #  while word_idx < words.length
+ #    current_word = words[word_idx]
+
+ #    if longest_word == nil
+ #      longest_word = current_word
+ #    elsif longest_word.length < current_word.length
+ #      longest_word = current_word
+ #    end
+
+ #    word_idx += 1
+ #  end
+
+ #  return longest_word
+
 end
 
 # These are tests to check that your code is working. After writing
