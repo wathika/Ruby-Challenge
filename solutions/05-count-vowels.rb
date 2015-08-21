@@ -7,6 +7,7 @@
 def count_vowels(string)
   num_vowels = 0
 
+#this is a very long process and loop
   i = 0
   while i < string.length
     if (string[i] == "a" || string[i] == "e" || string[i] == "i" || string[i] == "o" || string[i] == "u")
