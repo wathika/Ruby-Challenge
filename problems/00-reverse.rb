@@ -6,6 +6,7 @@
 # Difficulty: easy.
 
 def reverse(string)
+	reversed_string = ""
 end
 
 # These are tests to check that your code is working. After writing
