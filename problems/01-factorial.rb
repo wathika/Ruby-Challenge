@@ -6,6 +6,11 @@
 # Difficulty: easy.
 
 def factorial(n)
+
+  if n < 0
+    return nil
+  end
+  
 	number = 1
   while n > 0
     number =number * n
