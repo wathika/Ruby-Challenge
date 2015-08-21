@@ -4,6 +4,12 @@
 # Difficulty: easy.
 
 def time_conversion(minutes)
+	hours = 0
+
+	while minutes >= 60
+    hours += 1
+    minutes -= 60
+  end
 end
 
 # These are tests to check that your code is working. After writing
